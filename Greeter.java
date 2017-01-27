@@ -20,5 +20,6 @@ public class Greeter {
 	
 	public static void main(String args[]) {
 		System.out.println(new Greeter(Locale.ENGLISH).hello());
+		System.out.println(new Greeter(Locale.FRENCH).hello());
 	}
 }
